@@ -10,7 +10,7 @@ aws ec2 describe-images \
 <h5> check and use it when creating the ec2</h5>
  aws ec2 describe-images --image-ids ami-03c3ac54a88879408  //change the emi according to the log
 
-<h4> change the ami and subnet keypair and sg  accoring to the vpc </h4> 
+<h4> change the ami and subnet keypair and sg  accoring to the vpc (while taking take as a raw code)</h4> 
  aws ec2 run-instances \
     --region ap-south-1 \
     --image-id ami-03c3ac54a88879408 \
@@ -22,4 +22,6 @@ aws ec2 describe-images \
     --block-device-mappings '[{"DeviceName":"/dev/sda1","Ebs":{"VolumeSize":8}}]' \
     --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=MyInstance}]' \
     --count 1
+
+aws ec2 run-instances     --region ap-south-1     --image-id ami-03c3ac54a88879408     --instance-type t2.micro     --key-name MyKeyPair     --security-group-ids sg-05efc9f1faa23ef15     --subnet-id subnet-019675d33edf924c7     --associate-public-ip-address     --block-device-mappings '[{"DeviceName":"/dev/sda1","Ebs":{"VolumeSize":8}}]'     --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=MyInstance}]'     --count 1
 
