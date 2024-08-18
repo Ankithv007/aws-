@@ -45,7 +45,7 @@ aws ec2 run-instances --image-id <ami-id> --count 1 --instance-type t2.micro
                       --key-name <Keypair-name> --security-group-ids <SecurityGroupId> 
                       --subnet-id <SubnetId>
 
-  for ami id 
+ <h3> for ami id  </h3> 
           aws ec2 describe-images \
     --owners amazon \
     --filters "Name=name,Values=amzn2-ami-hvm-*-x86_64-gp2" \
