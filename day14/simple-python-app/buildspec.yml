@@ -2,9 +2,10 @@ version: 0.2
 
 env:
   parameter-store:
-    DOCKER_REGISTRY_USERNAME: /myapp/Docker-Credetial/username
-    DOCKER_REGISTRY_PASSWORD: /myapp/Docker-Credetial/password
-    DOCKER_REGISTRY_URL: /myapp/Docker-Credetial/docker_regisrty_url
+    DOCKER_REGISTRY_USERNAME: /myapp/Docker-Credential/username
+    DOCKER_REGISTRY_PASSWORD: /myapp/Docker-Credential/password
+    DOCKER_REGISTRY_URL: /myapp/Docker-Credential/url
+
 phases:
   install:
     runtime-versions:
@@ -12,6 +13,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
+      - pip install --upgrade pip
       - pip install -r day-14/simple-python-app/requirements.txt
   build:
     commands:
@@ -24,7 +26,8 @@ phases:
   post_build:
     commands:
       - echo "Build completed successfully!"
+
 artifacts:
   files:
     - '**/*'
-  base-directory: ../simple-python-app
+  base-directory: day-14/simple-python-app
