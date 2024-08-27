@@ -1,7 +1,7 @@
-#### here we use code pipelie instead of jenkins its work similar as jenkins but its pay as you use service
+#### here we use code pipeline instead of jenkins its work similar as jenkins but its pay as you use service
 
-### why code pipeline not jenkin (jenkin is free service)
-<h4> because in jenkins we have use wrok node as they company grow we have to increase the so its difficult to main 
+### why code pipeline not jenkin 
+<h4>  because in jenkins we have use wrok node as they company grow we have to increase the worknode and also we have to increase the master salve architecture so its difficult to main 
 but in code pipeline its easy to scale up and scale down aws will take care of rest of the things 
 where as in jenkin we have to maintain the team for the jenkin </h4>
 
