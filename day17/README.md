@@ -6,13 +6,13 @@ It allows you to run your code without provisioning or managing servers. With La
 you can execute code in response to events such as changes in data, shifts in system state, or actions from users.
 
 Key Features of AWS Lambda:
-Event-Driven Execution:AWS Lambda runs your code in response to various events. These events can be triggered by AWS services like S3 (file uploads),
+1)Event-Driven Execution:AWS Lambda runs your code in response to various events. These events can be triggered by AWS services like S3 (file uploads),
 DynamoDB (database changes), Kinesis (streaming data), API Gateway (HTTP requests), 
 
-Serverless Architecture:
-Automatic Scaling:
-Cost Efficiency:
-Supported Languages:AWS Lambda supports several programming languages, including Python, Node.js, Java, Go, Ruby, .NET Core, and custom runtimes for other languages.
+2)Serverless Architecture:
+3)Automatic Scaling:
+4)Cost Efficiency:
+5)Supported Languages:AWS Lambda supports several programming languages, including Python, Node.js, Java, Go, Ruby, .NET Core, and custom runtimes for other languages.
 
 
 ## Understanding AWS Lambda
