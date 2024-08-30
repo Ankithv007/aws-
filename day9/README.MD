@@ -33,7 +33,7 @@ The S3 bucket named `staticwebakith` is configured to serve static content such 
          "Effect": "Allow",
          "Principal": "*",
          "Action": "s3:GetObject",
-         "Resource": "arn:aws:s3:::staticwebakith/*"    ///change the nam as per the bucket name
+         "Resource": "arn:aws:s3:::staticwebakith/*"    ///change the name as per the bucket name as you created before
        }
      ]
    }
