@@ -24,5 +24,5 @@
 #### Integration: ECS is tightly integrated with AWS services, while EKS integrates with the broader Kubernetes ecosystem.
 #### In summary, choose ECS for a simpler, AWS-integrated solution and EKS if you need the features of Kubernetes or are already using Kubernetes.
 
-## ECR (Elastic Container Registry): A fully managed container registry service that allows you to store, manage, and deploy Docker container images.It acts as a repository where you can push and pull container images for use with ECS or other container orchestration tools.(for more day19-20)
+## ECR (Elastic Container Registry): A fully managed container registry service that allows you to store, manage, and deploy Docker container images.It acts as a repository where you can push and pull container images for use with ECS or other container orchestration tools.(for more about ECR Look into  day-19)
 ### ECR is used for storing and managing container images.
