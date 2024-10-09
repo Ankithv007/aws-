@@ -36,6 +36,10 @@ Amazon Route 53 is a DNS service that performs various functions, such as:
 
 3. **Health Checks**: Route 53 performs health checks on resources to ensure traffic is only routed to healthy instances. If a resource fails a health check, Route 53 stops routing traffic to it.
 
+[Click here to see the first picture](https://disaster-recovery.workshop.aws/images/how-route-53-routes-traffic.png)
+
+[Click here to see the second picture](https://d1tcczg8b21j1t.cloudfront.net/strapi-assets/36_Route53_basics_1_3b90b20948.png)
+
 ### Use Cases for Route 53
 
 - **Managing Domains and DNS Zones**: Host domains, create subdomains, and manage DNS records.
