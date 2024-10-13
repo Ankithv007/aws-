@@ -1,10 +1,8 @@
 ### To create a Docker setup that includes your Dockerfile, app.py, and requirements.txt in a single directory and then build and push the Docker image to an Amazon ECR repository, follow these steps:
 
 # Login to ECR (replace <region> and <account-id> with your actual values)
-```
 $ aws ecr get-login-password --region <region> | docker login --username AWS --password-stdin <account-id>.dkr.ecr.<region>.amazonaws.com
-```
-example
+- example
 ```
 aws ecr get-login-password --region ap-south-1| docker login --username AWS --password-stdin 324037289876.dkr.ecr.ap-south-1.amazonaws.com
 
@@ -13,7 +11,7 @@ aws ecr get-login-password --region <change accordingly>| docker login --usernam
 
 # Build the Docker image (replace <repo-name> with your ECR repository name)
 $ docker build -t <account-id>.dkr.ecr.<region>.amazonaws.com/<repo-name>:latest .
-example
+- example
 ```
 docker build -t 324037289876.dkr.ecr.ap-south-1.amazonaws.com/python-web-app:latest .
 
@@ -22,10 +20,9 @@ docker build -t <when you create ecr -->(uri) it will give this copy paste from 
 
 # Push the Docker image to ECR (replace <repo-name> with your ECR repository name)
 $ docker push <account-id>.dkr.ecr.<region>.amazonaws.com/<repo-name>:latest
-example---> copy the build tag remove the . (current location) and remove -t tag and build write push instead build 
+- example---> copy the build tag remove the . (current location) and remove -t tag and build write push instead build 
 ```
 docker push 324037289876.dkr.ecr.ap-south-1.amazonaws.com/python-web-app:latest
-
 ```
 
  ######
