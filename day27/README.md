@@ -1,5 +1,12 @@
 # Cloud Migration Strategies
 
+# steps
+- Preparation
+- Planning
+- Migrate
+- Monitor
+- Optimize/Imporve
+
 Cloud migration involves moving data, applications, and other business elements to a cloud computing environment. Several strategies, often referred to as the "6 Rs of Cloud Migration," can guide organizations in the migration process. This document outlines these strategies and best practices for choosing the right approach for your application and infrastructure needs.
 
 ## 1. Rehosting (Lift and Shift)
