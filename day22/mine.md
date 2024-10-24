@@ -129,9 +129,16 @@ kubectl get pods -n kube-system
 ```
 kubectl get ingress -n game-2048
 ```
+```
+kubectl get ingress -A
+kubectl get ingress --all-namespaces
+```
 - and ingress controller created this adress (go and check in ec2 dashboard load balancer (in lb DNS name it is the same ip that provide in ingress controller also))
 ```
   k8s-game2048-ingress2-fe2829f6d9-185779879.ap-south-1.elb.amazonaws.com
+```
+```
+kubectl get ingress -A
 ```
 - and get the link from the load balancer only and acces through web
 
