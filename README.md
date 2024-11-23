@@ -167,4 +167,10 @@ You'll explore AWS Elastic Load Balancer, a service for distributing incoming ap
 
 **Project:** You'll configure an Elastic Load Balancer for an application, define target groups, and observe the load balancing behavior across instances.
 
-
+## Day 27 : Cloud Migration
+1. Rehosting (Lift and Shift)
+2. Replatforming (Lift, Tinker, and Shift)
+3. Refactoring (Re-Architecting)
+4. Repurchasing (Replace)
+5. Retaining (Revisit or Hybrid)
+6. Retiring 
