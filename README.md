@@ -96,13 +96,13 @@ You'll dive into AWS CodePipeline, a fully managed continuous delivery service. 
 This day focuses on AWS CodeBuild, a fully managed build service. You'll learn how to configure build projects in CodeBuild, define build specifications, and perform build and testing processes.
 
 **Project:** You'll configure and run CodeBuild for a project, including defining build specifications and integrating with other AWS services.
-
+![AWS CI](https://github.com/Ankithv007/Kubernetes/raw/main/images/aws%20CI.png)
 ## Day 15: AWS CodeDeploy
 
 You'll explore AWS CodeDeploy, a service for automating application deployments to various compute environments. You'll learn how to create deployment groups, configure deployment strategies, and perform automatic rollbacks if necessary.
 
 **Project:** You'll implement a Blue/Green deployment strategy for a sample application using CodeDeploy, ensuring zero-downtime deployments and easy rollback options.
-
+![AWS CI/CD](https://github.com/Ankithv007/Kubernetes/raw/main/images/aws%20ci-cd.png)
 ## Day 16: AWS CloudWatch
 
 This day focuses on monitoring AWS resources using AWS CloudWatch. You'll learn how to create alarms, set up notifications, and collect metrics to gain insights into the health and performance of your applications and infrastructure.
