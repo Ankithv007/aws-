@@ -166,6 +166,9 @@ You'll explore AWS CloudTrail and AWS Config, which provide auditing and complia
 You'll explore AWS Elastic Load Balancer, a service for distributing incoming application traffic across multiple targets. You'll learn how to configure and manage load balancers to ensure high availability, fault tolerance, and scalability.
 
 **Project:** You'll configure an Elastic Load Balancer for an application, define target groups, and observe the load balancing behavior across instances.
+- [ebs](https://www.kerno.io/aws/ebs)
+![ebs](https://cdn.prod.website-files.com/63403546259748be2de2e194/6510ab90d75705217fe92a97_Img1b_Short2.gif)
+
 
 ## Day 27 : Cloud Migration
 1. Rehosting (Lift and Shift)
@@ -174,3 +177,9 @@ You'll explore AWS Elastic Load Balancer, a service for distributing incoming ap
 4. Repurchasing (Replace)
 5. Retaining (Revisit or Hybrid)
 6. Retiring 
+
+## Day 28 : AWS Storage Services (EFS)
+1. File Storage -  Amazon Elastic File System (EFS)  ---> this is my main concept
+2. Object Storage - Amazon Simple Storage Service (S3)
+3. Block Storage - Amazon Elastic Block Store (EBS)
+![aws storage](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*zA4cvaw3R9czHk8erA4ysQ.png)
