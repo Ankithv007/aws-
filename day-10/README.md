@@ -24,6 +24,23 @@ Before starting with AWS CLI, ensure you have:
 
 Refer to the [installation steps](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html) for Linux distributions.
 
+```
+# 1. Install dependencies
+sudo apt update && sudo apt install -y unzip curl
+
+# 2. Download the latest AWS CLI v2 installer
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+# 3. Unzip the installer
+unzip awscliv2.zip
+
+# 4. Run the install script
+sudo ./aws/install
+
+# 5. Verify the install
+aws --version
+```
+
 ## Configuration
 
 Once the AWS CLI is installed, configure it
