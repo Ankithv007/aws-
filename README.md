@@ -183,3 +183,8 @@ You'll explore AWS Elastic Load Balancer, a service for distributing incoming ap
 2. Object Storage - Amazon Simple Storage Service (S3)
 3. Block Storage - Amazon Elastic Block Store (EBS)
 ![aws storage](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*zA4cvaw3R9czHk8erA4ysQ.png)
+
+## Day 29 : OpenVPN Setup to Access Private EC2
+
+1. Set up OpenVPN on a bastion host so you can securely connect to private EC2 instances via their private IP — 
+2.without needing SSH key pairs on the terminal
