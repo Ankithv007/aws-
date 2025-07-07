@@ -188,3 +188,7 @@ You'll explore AWS Elastic Load Balancer, a service for distributing incoming ap
 
 1. Set up OpenVPN on a bastion host so you can securely connect to private EC2 instances via their private IP — 
 2.without needing SSH key pairs on the terminal
+
+## Day 30 Deployment Setup: Clone Private GitHub Repo to **EC2** Using SSH
+
+1.This guide helps you securely set up SSH access on your EC2 instance to clone a private GitHub repository 
